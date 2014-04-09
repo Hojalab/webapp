@@ -17,9 +17,9 @@ gem 'rolify'
 gem 'simple_form', '~> 3.0.2'
 gem "uuid", "~> 2.3.7"
 gem 'high_voltage', '~> 2.1.0'
-gem 'thin'
 
 group :development do
+  gem 'thin'
   gem 'rails_layout'
 end
 group :development, :test do
