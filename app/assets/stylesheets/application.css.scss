@@ -62,7 +62,7 @@
 // styles used for DEVISE views
 .authform {
   padding-top: 30px;
-  max-width: 320px;
+  max-width: 360px;
   margin: 0 auto;
 }
 .authform form {
@@ -75,14 +75,18 @@
 .authform form p {
   font-size: rem-calc(13);
 }
-.authform .form-group {
-  // for Bootstrap, not used for Foundation
+.authform form h3 {
+	color: #a0a0a0;
 }
-.authform .form-control {
-  // for Bootstrap, not used for Foundation
+.authform .form-group {
+  // not used
 }
 .authform .checkbox {
-  // for Bootstrap, not used for Foundation
+	margin-top: 16px;
+}
+.authform .form-bottom {
+	position: absolute;
+	margin-top: 24px;
 }
 .authform fieldset {
   @include panel();
