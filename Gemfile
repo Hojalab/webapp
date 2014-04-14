@@ -9,18 +9,25 @@ gem 'jbuilder', '~> 2.0'
 gem 'cancan'
 gem 'devise'
 gem 'figaro'
-gem 'foundation-rails'
 gem 'mysql2'
 gem 'rolify'
 gem 'simple_form', '~> 3.0.2'
 gem "uuid", "~> 2.3.7"
 gem 'high_voltage', '~> 2.1.0'
 
+# asset gems
+gem 'foundation-rails'
+gem 'foundation-icons-sass-rails'
+gem 'sass-rails', '~> 4.0.3'
+gem 'uglifier', '>= 2.5.0'
+gem 'coffee-rails', '~> 4.0.1'
+
 group :assets do
   gem 'sass-rails', '~> 4.0.3'
+  gem 'foundation-rails'
+  gem 'foundation-icons-sass-rails'
   gem 'uglifier', '>= 2.5.0'
   gem 'coffee-rails', '~> 4.0.1'
-  gem 'foundation-icons-sass-rails'
 end
 
 group :development do
