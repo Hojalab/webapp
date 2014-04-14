@@ -2,9 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'rails', '~> 4.1.0'
-gem 'sass-rails', '~> 4.0.3'
-gem 'uglifier', '>= 2.5.0'
-gem 'coffee-rails', '~> 4.0.1'
+
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
@@ -17,6 +15,13 @@ gem 'rolify'
 gem 'simple_form', '~> 3.0.2'
 gem "uuid", "~> 2.3.7"
 gem 'high_voltage', '~> 2.1.0'
+
+group :assets do
+  gem 'sass-rails', '~> 4.0.3'
+  gem 'uglifier', '>= 2.5.0'
+  gem 'coffee-rails', '~> 4.0.1'
+  gem 'foundation-icons-sass-rails'
+end
 
 group :development do
   gem 'thin'
