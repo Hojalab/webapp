@@ -5,4 +5,7 @@ Webapp::Application.routes.draw do
   
   resources :users
   resources :internal
+  
+  post '/users/lock/:id' => 'users#lock'
+  post '/users/unlock/:id' => 'users#unlock'
 end
