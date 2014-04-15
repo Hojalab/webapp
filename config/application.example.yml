@@ -30,3 +30,8 @@ SMTP_USER_NAME: example
 SMTP_PASSWORD: password
 SMTP_DEFAULT_FROM_ADDRESS: robot@example.com
 SMTP_DEFAULT_REPLY_TO_ADDRESS: no-reply@example.com
+
+# analytics settings
+TRACKING_SITE: piwik
+TRACKING_URL: localhost
+TRACKING_ID: 1
